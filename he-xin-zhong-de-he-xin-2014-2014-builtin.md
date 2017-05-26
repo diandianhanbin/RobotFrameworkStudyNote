@@ -88,6 +88,13 @@ ${str3}  ==>  HelloWorld
         pass
 ```
 
+官方文档中是这么描述的
+
+>This keyword does nothing with the arguments it receives, but as they
+        are visible in the log, this keyword can be used to display simple
+        messages. Given arguments are ignored so thoroughly that they can even
+        contain non-existing variables
+
 
 
 
