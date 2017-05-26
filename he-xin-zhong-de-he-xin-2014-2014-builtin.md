@@ -95,8 +95,11 @@ ${str3}  ==>  HelloWorld
         messages. Given arguments are ignored so thoroughly that they can even
         contain non-existing variables
 
+执行的结果是这样的
 
+![](http://7xsgl3.com1.z0.glb.clouddn.com//1495790057.png )
 
+我们可以在需要关注的数据上下都打上这个点，方便快速找到需要查看的日志信息。
 
 
 
