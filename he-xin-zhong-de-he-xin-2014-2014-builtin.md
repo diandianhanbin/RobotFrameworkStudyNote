@@ -76,6 +76,23 @@ ${str2}  ==>  Hello-World
 ${str3}  ==>  HelloWorld
 ```
 
+## Comment
+
+这是一个非常有意思的方法，说有意思是因为他没有任何执行逻辑，只是在日志中打一个点。
+
+源代码
+
+```
+@run_keyword_variant(resolve=0)
+    def comment(self, *messages):
+        pass
+```
+
+
+
+
+
+
 
 
 
