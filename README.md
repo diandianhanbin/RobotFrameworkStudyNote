@@ -1,2 +1,3 @@
-# RobotFrameworkStudyNote
-RobotFramework学习笔记
+# 写在前面
+
+RobotFramework是一个非常优秀的开源框架，目前广泛用于自动化测试，本书是我在学习RobotFramework的过程中做的笔记，希望对后来的学习中有帮助。
