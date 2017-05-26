@@ -101,6 +101,37 @@ ${str3}  ==>  HelloWorld
 
 我们可以在需要关注的数据上下都打上这个点，方便快速找到需要查看的日志信息。
 
+## Continue To *
+
+`Continue To *`这一系列的方法的源代码实现方案需要对`RobotFramework`的框架实现。所以这里只列了一些执行方法。
+
+### Continue For Loop
+
+代码实现
+
+```
+*** Test Cases ***
+test
+    :FOR    ${item}    IN RANGE   4
+    \   run keyword if  ${item}==2      continue for loop
+    \    log  ${item}
+```
+
+### Continue For Loop If
+
+代码实现
+
+```
+*** Test Cases ***
+test
+    :FOR    ${item}    IN RANGE   4
+    \   continue for loop if  ${item}==2
+    \    log  ${item}
+```
+
+
+
+
 
 
 
