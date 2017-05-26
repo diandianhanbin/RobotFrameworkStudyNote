@@ -140,11 +140,22 @@ Convert To * 这一些列的方法都是最基础的数据转换方法，因此�
 示例代码
 
 ```
-
+*** Test Cases ***
+test
+    convert to integer  1
 ```
 
+### Convert To Number
 
+转换为`float`类型
 
+示例代码
+
+```
+*** Test Cases ***
+test
+    convert to number  1.11
+```
 
 
 
