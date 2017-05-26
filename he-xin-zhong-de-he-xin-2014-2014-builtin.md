@@ -57,7 +57,23 @@ test
 示例代码
 
 ```
+*** Test Cases ***
+test
+    ${str1}     Catenate        Hello   World
+    ${str2}     catenate        SEPARATOR=-     Hello   World
+    ${str3}     catenate        SEPARATOR=      Hello   World
+    log  ${str1}
+    log  ${str2}
+    log  ${str3}
+```
 
+执行结果
+
+
+```
+${str1}  ==>  Hello World	
+${str2}  ==>  Hello-World
+${str3}  ==>  HelloWorld
 ```
 
 
