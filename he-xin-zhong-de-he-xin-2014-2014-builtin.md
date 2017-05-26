@@ -129,6 +129,14 @@ test
     \    log  ${item}
 ```
 
+## Convert To *
+
+Convert To * 这一些列的方法都是最基础的数据转换方法，因此全部归到这里来写
+
+### Convert To Interger
+
+转换为`int`类型
+
 
 
 
